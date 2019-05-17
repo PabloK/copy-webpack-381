@@ -1,0 +1,20 @@
+{
+  "name": "copy-webpack-381",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "webpack --mode=production"
+  },
+  "author": "Pablo Jomer",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@types/webpack": "^4.4.25",
+    "copy-webpack-plugin": "^5.0.2",
+    "rimraf": "^2.6.3",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.2"
+  }
+}
