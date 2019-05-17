@@ -11,7 +11,7 @@ const config = {
     plugins: [new webpack.HotModuleReplacementPlugin(),
         new CopyPlugin([
             { from: 'dir', to: "dir" },
-            { from: 'symlink', to: "symlink" }
+            { from: 'symlink', to: "symlink", resolveLinks: false }
         ])
     ],
     node: {
